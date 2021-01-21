@@ -1,9 +1,13 @@
-body{
-
+.container{ /*padding cravatta*/
+  padding: 1% 10%;
 }
 
-.container{
-  padding: 2% 15%;
+footer{ /*aggiustamento footer*/
+  margin-top: -18px;
+}
+
+[class^="col-"]{  /*float delle colonne*/
+  float: left;
 }
 
 .row:after{  /*clearfix*/
@@ -12,11 +16,7 @@ body{
   display: table;
 }
 
-[class^="col-"]{
-  float: left;
-}
-
-.col-100{
+.col-100{ /*width per le colonne*/
   width: 100%;
 }
 
@@ -28,7 +28,7 @@ body{
   width: 20%;
 }
 
-.h1{
+.h1{ /*altezze per layout vuoto*/
   height: 100px;
 }
 
@@ -44,7 +44,7 @@ body{
   height: 50px;
 }
 
-.bg-pink{
+.bg-pink{ /*utilities*/
   background-color: pink;
 }
 
@@ -58,4 +58,22 @@ body{
 
 .bg-purple{
   background-color: purple;
+}
+
+.bg-blue{
+  background-color: blue;
+}
+
+.col-100 div.int-top{ /*impostazione margini nei div interni alle colonne*/
+  margin-bottom: 10px;
+}
+
+.col-20 div.int-sx{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.col-20 div.int-dx{
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
