@@ -1,13 +1,25 @@
-.container{ /*padding cravatta*/
-  padding: 1% 10%;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-footer{ /*aggiustamento footer*/
-  margin-top: -18px;
+.container{
+  width: 80%;
+  margin: 0 auto;
 }
+
+/* footer{ aggiustamento footer
+  margin-top: -25px;
+} */
 
 [class^="col-"]{  /*float delle colonne*/
   float: left;
+  padding: 0 15px;
+}
+
+.row{
+  margin: 0 -15px;
 }
 
 .row:after{  /*clearfix*/
@@ -64,7 +76,23 @@ footer{ /*aggiustamento footer*/
   background-color: blue;
 }
 
-.col-100 div.int-top{ /*impostazione margini nei div interni alle colonne*/
+.mt-1{
+  margin-top: 2%;
+}
+
+.mt-2{
+  margin-top: 1%;
+}
+
+.mb-1{
+  margin-bottom: 1%;
+}
+
+.pb-1{
+  padding-bottom: 1%;
+}
+/*
+.col-100 div.int-top{ impostazione margini nei div interni alle colonne
   margin-bottom: 10px;
 }
 
@@ -76,4 +104,4 @@ footer{ /*aggiustamento footer*/
 .col-20 div.int-dx{
   margin-left: 10px;
   margin-bottom: 10px;
-}
+} */
